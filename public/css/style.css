@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 35px;
+  padding: 0;
+  font-family: sans-serif;
+  max-width: 100%;
+  max-height: 100%;
+  background-position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  width: 300px;
+  padding: 0%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(#141e30, #706a6a);
+  box-sizing: content-box;
+  border-radius: 100px;
+  border-bottom: 0rem;
+}
+img {
+  width: 100px;
+  height: auto;
+}
+
+input {
+  display: block;
+  margin: 20px auto;
+  color: rgb(253, 253, 253);
+  background-color: rgb(224, 58, 7);
+  box-shadow: 0 15px 25px rgb(148, 140, 140);
+  border-radius: 20px;
+  box-sizing: 30px;
+  width: 300px;
+  height: 40px;
+  font-size: 1.2rem;
+}
+p {
+  text-align: center;
+  color: aliceblue;
+  margin: 0%;
+}
+h2 {
+  color: aliceblue;
+}
+.btn {
+  text-decoration-line: none;
+}
